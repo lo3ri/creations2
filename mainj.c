@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+
+using namespace std;
 
 int main()
 {
@@ -7,17 +9,21 @@ int N;
 int C=0;
 int O;
 
-  for(int i; i<N; i++)
+cout << "Add meg N-t!\n";
+cin >> N;
+
+  for(int i=0; i<N; i++)
   {
-  cin >> N;
+	  O = C*N ;
 
-  C*N = O;
-
-   if(C<N)
-  {
-  N++;
-  }
+	   if(C<N)
+	  {
+		  C++;
+	  }
 
 
   }
+  cout << O << endl;
+
+return 0;
 }
