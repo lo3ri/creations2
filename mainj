@@ -11,14 +11,15 @@ int O;
   {
   cin >> N;
 
-  C*N = O
-  
+  C*N = O;
 
-  }
-  if(C<N)
+   if(C<N)
   {
-  N++
+  N++;
   
   }
 
+
+  }
+ 
 }
