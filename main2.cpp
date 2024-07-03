@@ -3,7 +3,7 @@
 using namespace std;
 
 float N;
-int main
+int main()
 {
   cin >> N;
   for (int i; i=0; i<N; i++){
