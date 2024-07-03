@@ -1,6 +1,6 @@
 #include <iostream>
 
-using namespace std
+using namespace std;
 
 float N;
 int main
