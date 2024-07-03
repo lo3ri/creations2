@@ -9,12 +9,12 @@ int N
 {
   if(N/2*2 == N)
   {
-   cout << << N >> "is even" << endl
+   cout << << N << "is even" << endl
 
 }
   else
   {
-   cout << << N >> "is odd" << endl
+   cout << << N << "is odd" << endl
 
 }
 
