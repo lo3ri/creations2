@@ -16,7 +16,7 @@ int main()
           C=C+mA[i];
         }
     C=C/sizemA;
-    cout << C;
+    cout << "Átlag: " << C << endl;
 
     return 0;
 }
