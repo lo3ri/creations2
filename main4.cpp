@@ -5,18 +5,18 @@ using namespace std;
 
 int main()
 {
-int mA[]{1, 2, 3, 4};
-int C=0;
+    int mA[4] = {1, 2, 3, 4};
+    float C=0;
+    int sizemA = sizeof(mA) / sizeof(int);
 
-for(int i; i=0; i<sizeof(mA[]); i++)
-  {
-  C=C+mA[i];
-}
-C=C/sizeof(mA[]);
-cout << C;
+    cout << sizemA << endl << mA[0] << endl;
 
+    for(int i=0; i< sizemA; i++)
+        {
+          C=C+mA[i];
+        }
+    C=C/sizemA;
+    cout << C;
 
-
-
-return 0;
+    return 0;
 }
